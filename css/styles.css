@@ -42,7 +42,6 @@ ul {
 }
 .container {
 	width: 1158px;
-	border: 1px dashed tomato;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -59,7 +58,6 @@ ul {
 	cursor: pointer;
 }
 
-
 .header {
 	border-bottom: 1px solid var(--accent-color);
 	padding-top: 24px;
@@ -75,7 +73,6 @@ ul {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: var(--common-color);
-	
 }
 .logo-web {
 	color: var(--primary-color);
@@ -99,15 +96,16 @@ ul {
 	color: var(--active-color);
 }
 .menu-flex {
-display: flex;
-gap: 40px;
+	display: flex;
+	gap: 40px;
 }
 .navigation-flex {
-display: flex;
-align-items: center;
+	display: flex;
+	align-items: center;
 }
-a.logo
-{margin-right: 76px;}
+a.logo {
+	margin-right: 76px;
+}
 /* -------Contacts-------- */
 .contacts .contacts-list-item > a {
 	font-style: normal;
@@ -117,29 +115,28 @@ a.logo
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
-.contacts{
+.contacts {
 	margin-left: auto;
 }
 .contacts .contacts-list-item > a:hover,
 .contacts .contacts-list-item > a:focus {
 	color: var(--active-color);
 }
-.contacts-flex{
+.contacts-flex {
 	display: flex;
-	gap: 40px ;
+	gap: 40px;
 	justify-content: flex-end;
 }
 .header-flex {
 	display: flex;
 }
 
-
 /* -------Hero-------- */
 .hero {
 	padding: 188px 472px;
 	background-color: var(--common-color);
 	text-align: center;
-	}
+}
 .hero-title {
 	font-size: 56px;
 	line-height: 1.07;
@@ -148,7 +145,7 @@ a.logo
 	color: var(--white-color);
 	width: 496px;
 	margin: 0px auto;
-margin-bottom: 48px;
+	margin-bottom: 48px;
 	padding: 0;
 }
 .hero-btn {
@@ -207,14 +204,14 @@ margin-bottom: 48px;
 	text-transform: capitalize;
 }
 .img-section-hdr {
-		margin-bottom: 72px;
+	margin-bottom: 72px;
 }
 .img-list {
 	display: flex;
 	gap: 24;
 }
 .img-list-item {
-	width: calc((100% - 48px)/3);
+	width: calc((100% - 48px) / 3);
 }
 
 /* -------team section-------- */
@@ -264,7 +261,7 @@ margin-bottom: 48px;
 	border-radius: 4px;
 	color: var(--white-color);
 }
-.buttons-flex{
+.buttons-flex {
 	display: flex;
 	justify-content: center;
 	gap: 24px;
@@ -272,42 +269,40 @@ margin-bottom: 48px;
 	margin-bottom: 72px;
 }
 
-
 /* -------Portfolio-cards------- */
 .portfolio-cards {
 	background: #ffffff;
-	width: calc((100% - 48px)/3);
+	width: calc((100% - 48px) / 3);
 	border-bottom: 1px solid #e7e9fc;
-
 }
 .portf-cart-img {
-	display: block; max-width: 100%; height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 .portfolio-cards > a {
 	text-decoration: none;
 	color: inherit;
-
 }
 .portfolio-cards-flex {
 	display: flex;
 	flex-wrap: wrap;
 	row-gap: 48px;
 	column-gap: 24px;
-	
 }
 .portf-card-header {
-padding-top: 32px;
-margin-bottom: 8px;
+	padding-top: 32px;
+	margin-bottom: 8px;
 }
 .portf-card-futter {
 	padding-left: 16px;
 	padding-bottom: 32px;
 	border: 1px solid #e7e9fc;
-	}
+}
 
 /* -------footer------- */
 .footer {
-		background-color: var(--common-color);
+	background-color: var(--common-color);
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
