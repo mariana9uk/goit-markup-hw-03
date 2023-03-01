@@ -116,7 +116,7 @@ ul {
 }
 
 .navigation-list-item:not(:last-child) {
-	padding-right: 40px;
+	margin-right: 40px;
 }
 
 a.logo-marg {
